@@ -1,0 +1,146 @@
+*{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body{
+    background-color: #222222;
+} */
+
+.par{
+    color:#1CB5E0;
+    font-size: 2.5em;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    background: #1CB5E0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 50px;
+    padding: 50px;
+  }
+  
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  
+  footer .content .right input[type="text"],
+  footer .content .right input[type="submit"] {
+    width: calc(100% - 20px); /* Adjusted width for smaller screens */
+  }
+  
+  footer .content .topic{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+  }
+  footer .content p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower a{
+    padding-right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  footer .content .lower i{
+    padding-right: 16px;
+    font-size: 20px;
+  }
+  
+  footer .content .middle{
+    padding-left: 13px;
+  }
+  
+  footer .content .middle a{
+    line-height: 32px;
+    font-weight: bold;
+  }
+  
+  footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+  }
+  
+  footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #d9d9d9;
+    background: #1CB5E0;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .right input[type="submit"]:hover{
+    background: none;
+    color:  white;
+    border-color: white;
+  }
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .content .media-icons a:hover{
+    border-color: white;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: white;
+  } 
